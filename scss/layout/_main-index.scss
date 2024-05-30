@@ -1,0 +1,245 @@
+body{
+  .index{
+    header{
+      .contenedor_carrito{
+        margin-left: 15px;
+        .carrito{
+          bottom: 35px;
+        }
+      }
+    }
+    main{
+      background-color: $bg-2;
+      .container_categorias{
+        font-family: $font-primaria;
+        @include flex (column, none, space-around, center, 1.25rem);
+        margin: 3.125rem .625rem;
+        .categoria_productos{
+          @include flex (row, none, none, none, none);
+          font-size: 1.125rem;
+          border-radius: .625rem;
+          padding: .625rem 0rem .625rem .625rem;
+          transition: all 0.3s;
+          width: 83%;
+          box-shadow: 0rem 0rem .625rem $color-shadow2;
+          background-color: $bg-4;
+          a{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: .625rem;
+            font-family: $font-primaria;
+            text-decoration: none;
+            h3{
+              color: $color-texto;
+              margin-bottom: 0rem;
+            }
+          }
+        }
+        .categoria_productos:hover{
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+        .categoria_mayorista{
+          @include flex (row, none, none, none, none);
+          font-size: 1.125rem;
+          border-radius: .625rem;
+          padding: .625rem 0rem .625rem .625rem;
+          transition: all 0.3s;
+          width: 83%;
+          box-shadow: 0rem 0rem .625rem $color-shadow2;
+          background-color: $bg-4;
+          a{
+            @include flex (row, none, none, center, 0.625rem);
+            font-family: $font-primaria;
+            text-decoration: none;
+            h3{
+              color: $color-texto;
+              margin-bottom: 0rem;
+            }
+          }
+        }
+        .categoria_mayorista:hover{
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+        .categoria_ofertas{
+          @include flex (row, none, none, none, none);
+          font-size: 1.125rem;
+          border-radius: .625rem;
+          padding: .625rem 0rem .625rem .625rem;
+          transition: all 0.3s;
+          width: 83%;
+          box-shadow: 0rem 0rem .625rem $color-shadow2;
+          background-color: $bg-4;
+          a{
+            @include flex (row, none, none, center, 0.625rem);
+            font-family: $font-primaria;
+            text-decoration: none;
+            h3{
+              color: $color-texto;
+              margin-bottom: 0rem;
+            }
+          }
+        }
+        .categoria_ofertas:hover{
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+      }
+      .container_productos{
+        display: grid;
+        grid-template-columns: repeat(
+          auto-fit, minmax(15rem , 1fr) );
+        ;
+        gap: 1.25rem;
+        margin:0rem 0rem 2.5rem 1.875rem;
+        transition: all 0.3s;
+        .producto_apple{
+          font-family: $font-primaria;
+          @include flex (column, none, none, none, none);
+          transition: all 0.3s;
+          margin-left: 1.25rem;
+          h3{
+            margin-bottom: 0rem;
+            transition: all 0.3s;
+            color: $color-texto4;
+          }
+          p{
+            color:$color-texto3;
+            margin-bottom: 0rem;
+            transition: all 0.3s;
+          }
+          img{
+            width: 13.125rem;
+            margin: .4375rem 0rem;
+            transition: all 0.3s;
+          }
+          .boton_producto{
+            @extend .boton_producto_index;
+            background-color: $bg-4;
+            a{
+              color: $color-texto;
+              font-family: $font-primaria;
+              text-decoration: none;
+              transition: all 0.3s;
+            }
+          }
+          .boton_producto:hover{
+            box-shadow: 0rem 0rem .625rem $color-shadow1;
+            transform: scale(1.1);
+          }
+        }
+      }
+      .container_fotografia{
+        width: 100%;
+        margin: 1.875rem 0rem;
+        transition: all 0.3s;
+        h2{
+          color: $color-texto;
+          font-family: $font-secundaria;
+          text-align: center;
+          box-shadow: 0rem 0rem .625rem $color-shadow1;
+          padding: .625rem;
+          margin-bottom: 2rem;
+          transition: all 0.3s;
+        }
+        .nikon{
+          width: 100%;
+          height: 6.25rem;
+          background-image: $bg-boton-nikon;
+          background-position:center;
+          background-size: cover;
+          background-position-y:26%;
+          text-align: center;
+          border: .125rem solid $color-bordes;
+          margin-bottom: .1875rem;
+          .fondo_nikon{
+            background-color: $bg-transparente1;
+            width: 100%;
+            height: 6.25rem;
+            a{
+              background-color: $bg-transparente2;
+              color: $color-texto;
+              padding: .5rem 1.875rem;
+              border-radius: 1.25rem;
+              border: .0625rem solid $color-bordes;
+              font-size: 1.25rem;
+              position: relative;
+              top: 2.5rem;
+              font-family: $font-primaria;
+              text-decoration: none;
+            }
+            a:hover{
+              box-shadow: 0rem 0rem .625rem $color-shadow1;
+              transform: scale(1.5);
+            }
+          }
+        }
+        .canon{
+          width: 100%;
+          height: 6.25rem;
+          background-image: $bg-boton-canon;
+          background-position:center;
+          background-size: cover;
+          background-position-y:30%;
+          text-align: center;
+          border: .125rem solid $color-bordes;
+          margin-bottom: .1875rem;
+          .fondo_canon{
+            background-color: $bg-transparente3;
+            width: 100%;
+            height: 6.25rem;
+            a{
+              background-color: $bg-transparente2;
+              color: $color-texto;
+              padding: .5rem 1.875rem;
+              border-radius: 1.25rem;
+              border: .0625rem solid $color-bordes;
+              font-size: 1.25rem;
+              position: relative;
+              top: 2.5rem;
+              font-family: $font-primaria;
+              text-decoration: none;
+            }
+            a:hover{
+              box-shadow: 0rem 0rem .625rem $color-shadow1;
+              transform: scale(1.5);
+            }
+          }
+        }
+        .sony{
+          width: 100%;
+          height: 6.25rem;
+          background-image: $bg-boton-sony;
+          background-position:center;
+          background-size: cover;
+          background-position-y:37%;
+          text-align: center;
+          border: .125rem solid $color-bordes;
+          .fondo_sony{
+            background-color: $bg-transparente1;
+            width: 100%;
+            height: 6.25rem;
+            a{
+              background-color: $bg-transparente2;
+              color: $color-texto;
+              padding: .5rem 1.875rem;
+              border-radius: 1.25rem;
+              border: .0625rem solid $color-bordes;
+              font-size: 1.25rem;
+              position: relative;
+              top: 2.5rem;
+              font-family: $font-primaria;
+              text-decoration: none;
+            }
+            a:hover{
+              box-shadow: 0rem 0rem .625rem $color-shadow1;
+              transform: scale(1.5);
+            }
+          }
+        }
+      }
+    }
+  }
+}

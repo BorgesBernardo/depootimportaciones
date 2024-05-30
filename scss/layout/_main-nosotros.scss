@@ -1,0 +1,35 @@
+body{
+  .nosotros{
+    header{
+      .contenedor_carrito{
+        .carrito{
+          bottom: 35px;
+        }
+      }
+    }
+    .main_nosotros{
+      section{
+        .titulo_nosotros{
+          text-align: center;
+          margin: 1.625rem 0rem;
+          font-family: $font-secundaria;
+          color: $color-texto;
+        }
+        .texto_nosotros{
+          margin: .625rem 1.875rem;
+          font-family: $font-primaria;
+          padding: 0rem .5625rem ;
+          color: $color-texto;
+          font-size: 1.125rem;
+          h2{
+            font-weight: bold;
+            margin-bottom: 1.25rem;
+          }
+          span{
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}

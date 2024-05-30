@@ -1,0 +1,114 @@
+body{
+  .productos{
+    main{
+      .titulo_productos{
+        text-align: center;
+        margin: .625rem 0rem;
+        font-family: $font-secundaria;
+        font-size: .875rem;
+        color: $color-texto;
+      }
+      .container_marcas{
+        // @include flex (row, none, center, none, 0.9375rem);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.25rem;
+        margin: 1.875rem 3rem;
+        .categoria-boton{
+          border-radius: 50%;
+          border: transparent;
+          background-color: transparent;
+          box-shadow: 0rem 0rem .625rem $color-shadow1;
+          img{
+            width: 3.75rem;
+            border-radius: 50%;
+            border: .0625rem solid $color-bordes2;
+          }
+        }
+        .categoria-boton:hover{
+          box-shadow: 0rem 0rem .625rem $color-shadow1;
+          transform: scale(1.1);
+          transition: all 0.5s;
+        }
+      }
+      .contenedor_productos{
+        @include flex (row, wrap, center, none, 1.875rem);
+        margin: 2.8125rem 0rem 1.5625rem 0rem;
+        .producto{
+          width: 15rem;
+          display: flex;
+          flex-direction: column;
+          gap: .9375rem;
+          .imagen_producto{
+            border-radius: .3125rem;
+          }
+          .producto_body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            // align-items: center;
+            color: white;
+            h3{
+              font-size: 1.125rem;
+              margin-left: .625rem;
+            }
+            p{
+              margin-left: .625rem;
+            }
+            .descripcion_producto{
+              font-weight: 100;
+              color: grey;
+            }
+            span{
+              font-weight: bold;
+              text-decoration: underline;
+            }
+            button{
+              border: .0625rem solid white;
+              border-radius: .3125rem;
+              padding: .375rem;
+              color: white;
+              background-color: $bg-4;
+              margin: 0rem 2.5rem;
+              cursor: pointer;
+            }
+            button:hover{
+              box-shadow: 0rem 0rem .625rem $color-shadow1;
+              transform: scale(1.1);
+              transition: all 0.5s;
+            }
+          }
+        }
+        div{
+          width: 15rem;
+          a:hover{
+            box-shadow: 0rem 0rem .625rem $color-shadow1;
+            transform: scale(1.1);
+            transition: all 0.5s;
+          }
+        }
+      }
+      .subtitulo_producto{
+        @include flex (row, none, space-between, center, none);
+        color: $color-texto;
+        text-align: center;
+        font-family: $font-primaria;
+        padding: .625rem;
+        box-shadow: 0rem 0rem .625rem $color-shadow1;
+        h2{
+          margin-bottom: 0rem;
+          margin-left:0.625rem;
+        }
+        a{
+          img{
+            width: 3.125rem;
+            margin-right:0.625rem;
+          }
+        }
+      }
+    }
+  }
+}

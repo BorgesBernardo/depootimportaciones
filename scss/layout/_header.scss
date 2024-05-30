@@ -1,0 +1,115 @@
+body{
+  .index, 
+  .productos, 
+  .galeria, 
+  .nosotros, 
+  .contacto,
+  .carrito {
+    background-color: $bg-3;
+    header{
+      .container_header{
+        width: 100%;
+        height: 8rem;
+        background-color: $bg-3;
+        align-items: center;
+        position: relative;
+        z-index: 100000;
+        nav{
+          height: 6.25rem;
+          width: 100%;
+          @include flex (row, none, space-between, center, none);
+          margin-top: 10px;
+          .logo{
+            img{
+              width: 10rem;
+              margin-left: 1.5625rem;
+            }
+          }
+          .bar-btn{
+            font-size: 1.5625rem;
+            color: $color-texto;
+            margin-right: 1.8rem;
+            cursor: pointer;
+            i{
+              color:$color-1;
+            }
+          }
+          .nav-menu{
+            position: fixed;
+            width: 100%;
+            height: 0vh;
+            top: 6.25rem;
+            background: $bg-2;
+            text-align: center;
+            padding-left: 0rem;
+            li{
+              list-style: none;
+              display: none;
+              line-height: 1.875rem;
+              margin: 3.125rem 0rem;
+              a{
+                text-decoration: none;
+                color: $color-texto2;
+                font-size: 1rem;
+                text-transform: uppercase;
+                font-weight: 600;
+                font-family: $font-secundaria;
+                text-align: center;
+              }
+            }
+            .contenedor_carrito{
+              .carrito-blanco{
+                display: none;
+                width: 40px;
+                position: absolute;
+                right: -14px;
+              }
+              p{
+                color: black;
+                position: relative;
+                font-size: 20px;
+                background-color: white;
+                padding: 0px 5px;
+                left: 40px;
+                top: 20px;
+                border-radius: 10px;
+              }
+              .carrito-negro{
+                width: 40px;
+              }
+              p{
+                color: white;
+                width: 26px;
+                position: relative;
+                display: inline-block;
+                font-size: 20px;
+                background-color: black;
+                padding: 0px 5px;
+                border-radius: 10px;
+                left:-14px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+nav-menu li a.active, .nav-menu li a:hover{
+  color: $bg-2;
+  transition: all 0.3s;
+}
+
+#check{
+  display: none;
+}
+#check:checked ~ .nav-menu{
+  height: 100vh;
+  transition: all 0.3s;
+}
+#check:checked ~ .nav-menu li{
+  display: block;
+}
+
+
