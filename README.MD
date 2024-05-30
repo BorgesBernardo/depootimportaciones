@@ -1,8 +1,6 @@
-<h1>Bienvenidos a Siri Importaciones </h1>
+<h1>Bienvenidos a Depoot Importaciones </h1>
 
-<h2> Curso Desarrollo Web / Comisión 58520 / Coderhouse </h2>
-
-<h3> Desarrollo de un e-commerce relacionado a la venta de productos tecnológicos como teléfonos, computadoras, tablets, y también todo lo que es fotografía profesional y amateur. A continuación muestro las pantallas que se plantearon en figma en las 3 versiones, mobile, tablet y desktop. En código se mejoró, se agregaron algunas funcionalidades e íconos extras. </h3>
+<h3> E-commerce relacionado a la venta de productos tecnológicos como teléfonos, computadoras, tablets, y también todo lo que es fotografía profesional y amateur. A continuación muestro las pantallas que se plantearon en figma en las 3 versiones, mobile, tablet y desktop. En código se mejoró, se agregaron algunas funcionalidades e íconos extras. </h3>
 
 <img src="./assets/readme/mobile.png">
 
