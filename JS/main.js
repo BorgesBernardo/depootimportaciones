@@ -11,7 +11,7 @@ const productos = [
       nombre: "Celulares",
       id: "apple"
     },
-    precio: 700
+    precio: 'USD 720'
   },
   {
     id: "apple-iphone14",
@@ -38,13 +38,13 @@ const productos = [
   {
     id: "apple-iphone15-promax",
     titulo: "iPhone 15 Pro Max",
-    descripcion: "256 GB | 1 TB",
+    descripcion: "256 GB | 512 GB | 1 TB",
     imagen: "../assets/productos/apple-iphone-15promax.jpg",
     categoria:{
       nombre: "Celulares",
       id: "apple"
     },
-    precio: "1300 | USD 1800"
+    precio: "USD 1.300 | USD 1.570 | USD 1.840"
   },
 
 //-------> Watch
@@ -58,7 +58,7 @@ const productos = [
       nombre: "Watch",
       id: "apple"
     },
-    precio: "300 | USD 340"
+    precio: "USD 300 | USD 340"
   },
   {
     id: "apple-watch-secell",
@@ -69,7 +69,7 @@ const productos = [
       nombre: "Watch",
       id: "apple"
     },
-    precio: "470 | USD 500"
+    precio: "USD 470 | USD 500"
   },
   {
     id: "apple-watch-s9",
@@ -80,7 +80,7 @@ const productos = [
       nombre: "Watch",
       id: "apple"
     },
-    precio: "480 | USD 530"
+    precio: "USD 480 | USD 530"
   },
   {
     id: "apple-watch-s9cell",
@@ -91,7 +91,7 @@ const productos = [
       nombre: "Watch",
       id: "apple"
     },
-    precio: "700 | USD 740"
+    precio: "USD 700 | USD 740"
   },
   {
     id: "apple-watch-ultra",
@@ -102,7 +102,7 @@ const productos = [
       nombre: "Watch",
       id: "apple"
     },
-    precio: 990
+    precio: 'USD 990'
   },
 
 
@@ -117,7 +117,7 @@ const productos = [
       nombre: "Notebooks",
       id: "apple"
     },
-    precio: 1000
+    precio: 'USD 1.000'
   },
   {
     id: "apple-macbook-airm213",
@@ -128,7 +128,7 @@ const productos = [
       nombre: "Notebooks",
       id: "apple"
     },
-    precio: 1290
+    precio: 'USD 1.290'
   },
   {
     id: "apple-macbook-airm215",
@@ -139,7 +139,7 @@ const productos = [
       nombre: "Notebooks",
       id: "apple"
     },
-    precio: 1520
+    precio: 'USD 1.520'
   },
   {
     id: "apple-macbook-airm313",
@@ -150,7 +150,7 @@ const productos = [
       nombre: "Notebooks",
       id: "apple"
     },
-    precio: 1450
+    precio: 'USD 1.450'
   },
   {
     id: "apple-macbook-airm315",
@@ -161,7 +161,7 @@ const productos = [
       nombre: "Notebooks",
       id: "apple"
     },
-    precio: 1650
+    precio: 'USD 1.650'
   },
   {
     id: "apple-macbook-prom314",
@@ -172,7 +172,7 @@ const productos = [
       nombre: "Notebooks",
       id: "apple"
     },
-    precio: 1960
+    precio: 'USD 1.960'
   },
   {
     id: "apple-macbook-prom316",
@@ -183,7 +183,7 @@ const productos = [
       nombre: "Notebooks",
       id: "apple"
     },
-    precio: 3080
+    precio: 'USD 3.080'
   },
 
 //-------> iPad
@@ -197,7 +197,7 @@ const productos = [
       nombre: "tablets",
       id: "apple"
     },
-    precio: 600
+    precio: 'USD 600'
   },
   {
     id: "apple-ipad-9nagen",
@@ -208,7 +208,7 @@ const productos = [
       nombre: "tablets",
       id: "apple"
     },
-    precio: "440 | USD 590"
+    precio: "USD 440 | USD 590"
   },
   {
     id: "apple-ipad-10magen",
@@ -219,7 +219,7 @@ const productos = [
       nombre: "tablets",
       id: "apple"
     },
-    precio: "580 | USD 750"
+    precio: "USD 580 | USD 750"
   },
   {
     id: "apple-ipad-air",
@@ -230,7 +230,7 @@ const productos = [
       nombre: "tablets",
       id: "apple"
     },
-    precio: 880
+    precio: 'USD 880'
   },
   {
     id: "apple-ipad-pro11",
@@ -241,7 +241,7 @@ const productos = [
       nombre: "tablets",
       id: "apple"
     },
-    precio: 940
+    precio: 'USD 940'
   },
 
 //-------> iMac
@@ -255,7 +255,7 @@ const productos = [
       nombre: "all-in-one",
       id: "apple"
     },
-    precio: 2300
+    precio: 'USD 2.300'
   },
 
 //-------> AirPods
@@ -269,7 +269,7 @@ const productos = [
       nombre: "all-in-one",
       id: "apple"
     },
-    precio: 300
+    precio: 'USD 300'
   },
 
 
@@ -285,29 +285,18 @@ const productos = [
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 920
-  },
-  {
-    id: "nikon-d850body",
-    titulo: "Nikon D850 Body",
-    descripcion: "Body",
-    imagen: "../assets/productos/nikon-d850body.jpg",
-    categoria:{
-      nombre: "Cámaras Nikon",
-      id: "nikon",
-    },
-    precio: 2600
+    precio: 'USD 920'
   },
   {
     id: "nikon-d3500kit",
     titulo: "Nikon D3500 ",
-    descripcion: "Kit 18-55mm",
+    descripcion: "Kit 18-55mm + 70-300mm",
     imagen: "../assets/productos/nikon-d3500kit.jpg",
     categoria:{
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 920
+    precio: 'USD 920'
   },
   {
     id: "nikon-d5600kit",
@@ -318,7 +307,7 @@ const productos = [
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 940
+    precio: 'USD 940'
   },
   {
     id: "nikon-d7500body",
@@ -329,7 +318,7 @@ const productos = [
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 1000
+    precio: 'USD 1.000'
   },
   {
     id: "nikon-d7500kit",
@@ -340,81 +329,40 @@ const productos = [
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 1360
+    precio: 'USD 1.330'
   },
   {
-    id: "nikon-z5body",
-    titulo: "Nikon Z5",
+    id: "nikon-d780body",
+    titulo: "Nikon D780",
     descripcion: "Body",
     imagen: "../assets/productos/nikon-z5body.jpg",
     categoria:{
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 1280
-  },
-  // {
-  //   id: "nikon-z5kit",
-  //   titulo: "Nikon Z5 Kit 24-200mm",
-  //   imagen: "../assets/productos/nikon-z5kit.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Nikon",
-  //     id: "nikon",
-  //   },
-  //   precio: 1050
-  // },
-  // {
-  //   id: "nikon-z6iibody",
-  //   titulo: "Nikon Z6 II Body",
-  //   imagen: "../assets/productos/nikon-z6iibody.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Nikon",
-  //     id: "nikon",
-  //   },
-  //   precio: 1050
-  // },
-  {
-    id: "nikon-z6iikit",
-    titulo: "Nikon Z6 II",
-    descripcion: "Kit 24-70mm",
-    imagen: "../assets/productos/nikon-z6iikit.jpg",
-    categoria:{
-      nombre: "Cámaras Nikon",
-      id: "nikon",
-    },
-    precio: 2430
+    precio: 'USD 1.810'
   },
   {
-    id: "nikon-z7iibody",
-    titulo: "Nikon Z7 II",
+    id: "nikon-d850body",
+    titulo: "Nikon D850 Body",
     descripcion: "Body",
-    imagen: "../assets/productos/nikon-z7iibody.jpg",
+    imagen: "../assets/productos/nikon-d850body.jpg",
     categoria:{
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 2650
+    precio: "Ingresando"
   },
-  // {
-  //   id: "nikon-z8kit",
-  //   titulo: "Nikon Z8 Kit 24-120mm",
-  //   imagen: "../assets/productos/nikon-z8kit.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Nikon",
-  //     id: "nikon",
-  //   },
-  //   precio: 1800
-  // },
   {
-    id: "nikon-z9body",
-    titulo: "Nikon Z9",
+    id: "nikon-zfbody",
+    titulo: "Nikon ZF",
     descripcion: "Body",
-    imagen: "../assets/productos/nikon-z9body.jpg",
+    imagen: "../assets/productos/nikon-zfbody.jpg",
     categoria:{
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 5150
+    precio: 'USD 2.430'
   },
   {
     id: "nikon-z30body",
@@ -425,7 +373,7 @@ const productos = [
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 720
+    precio: 'Ingresando'
   },
   {
     id: "nikon-z30kit",
@@ -436,7 +384,18 @@ const productos = [
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 880
+    precio: 'USD 880'
+  },
+  {
+    id: "nikon-z30kit",
+    titulo: "Nikon Z30",
+    descripcion: "Kit 16-50mm + 50-250vr",
+    imagen: "../assets/productos/nikon-z30kitx2.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'USD 1.010'
   },
   {
     id: "nikon-z50body",
@@ -447,211 +406,124 @@ const productos = [
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 880
+    precio: 'USD 830'
   },
-  // {
-  //   id: "nikon-z50kit",
-  //   titulo: "Nikon Z50 Kit 16-50mm",
-  //   imagen: "../assets/productos/nikon-z50kit.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Nikon",
-  //     id: "nikon",
-  //   },
-  //   precio: 1050
-  // },
   {
-    id: "nikon-zfbody",
-    titulo: "Nikon ZF",
-    descripcion: "Body",
-    imagen: "../assets/productos/nikon-zfbody.jpg",
+    id: "nikon-z50kit",
+    titulo: "Nikon Z50 Kit 16-50mm",
+    imagen: "../assets/productos/nikon-z50kit.jpg",
     categoria:{
       nombre: "Cámaras Nikon",
       id: "nikon",
     },
-    precio: 2450
+    precio: 'Ingresando'
   },
+  {
+    id: "nikon-z5body",
+    titulo: "Nikon Z5",
+    descripcion: "Body",
+    imagen: "../assets/productos/nikon-z5body.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'USD 1.290'
+  },
+  {
+    id: "nikon-z5kit",
+    titulo: "Nikon Z5 Kit 24-200mm",
+    imagen: "../assets/productos/nikon-z5kit.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "nikon-z6iibody",
+    titulo: "Nikon Z6 II Body",
+    imagen: "../assets/productos/nikon-z6iibody.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "nikon-z6iikit",
+    titulo: "Nikon Z6 II",
+    descripcion: "Kit 24-70mm f/4",
+    imagen: "../assets/productos/nikon-z6iikit.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'USD 2.450'
+  },
+  {
+    id: "nikon-z7iibody",
+    titulo: "Nikon Z7 II",
+    descripcion: "Body",
+    imagen: "../assets/productos/nikon-z7iibody.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'USD 2.630'
+  },
+  {
+    id: "nikon-z8body",
+    titulo: "Body",
+    imagen: "../assets/productos/nikon-z8body.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'USD 3.730'
+  },
+  {
+    id: "nikon-z8kit",
+    titulo: "Nikon Z8 Kit 24-120mm",
+    imagen: "../assets/productos/nikon-z8kit.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "nikon-z9body",
+    titulo: "Nikon Z9",
+    descripcion: "Body",
+    imagen: "../assets/productos/nikon-z9body.jpg",
+    categoria:{
+      nombre: "Cámaras Nikon",
+      id: "nikon",
+    },
+    precio: 'Ingresando'
+  },
+
+
+
+
+
+
+
+
+
 
 
   // ------> Canon <-------
   {
-    id: "canon-5dmkivbody",
-    titulo: "Canon 5D MK IV",
-    descripcion: "Body",
-    imagen: "../assets/productos/canon-5dmkiv.jpg",
+    id: "canon-t7kit",
+    titulo: "Canon T7",
+    descripcion: "Kit 18-55mm",
+    imagen: "../assets/productos/canon-t7kit.jpg",
     categoria:{
       nombre: "Cámaras Canon",
       id: "canon"
     },
-    precio: 2050
-  },
-  // {
-  //   id: "canon-6dmkiikit",
-  //   titulo: "Canon 6D MK II Kit 24-105mm",
-  //   imagen: "../assets/productos/canon-6dmkiikit.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Canon",
-  //     id: "canon"
-  //   },
-  //   precio: 1700
-  // },
-  // {
-  //   id: "canon-90dbody",
-  //   titulo: "Canon 90D Body",
-  //   imagen: "../assets/productos/canon-90dbody.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Canon",
-  //     id: "canon",
-  //   },
-  //   precio: 1050
-  // },
-  {
-    id: "canon-90dkit",
-    titulo: "Canon 90D",
-    descripcion: "Kit 18-135mm",
-    imagen: "../assets/productos/canon-90dkit.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 1750
-  },
-  // {
-  //   id: "canon-r5body",
-  //   titulo: "Canon R5 Body",
-  //   imagen: "../assets/productos/canon-r5body.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Canon",
-  //     id: "canon"
-  //   },
-  //   precio: 680
-  // },
-  {
-    id: "canon-r5cbody",
-    titulo: "Canon R5 C",
-    descripcion: "Body",
-    imagen: "../assets/productos/canon-r5c.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 3850
-  },
-  // {
-  //   id: "canon-r5kit",
-  //   titulo: "Canon R5 Kit 24-105mm",
-  //   imagen: "../assets/productos/canon-r5kit.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Canon",
-  //     id: "canon"
-  //   },
-  //   precio: 680
-  // },
-  {
-    id: "canon-r7body",
-    titulo: "Canon R7",
-    descripcion: "Body",
-    imagen: "../assets/productos/canon-r7body.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 1430
-  },
-  // {
-  //   id: "canon-r7kit",
-  //   titulo: "Canon R7 Kit 18-150mm",
-  //   imagen: "../assets/productos/canon-r7kit.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Canon",
-  //     id: "canon"
-  //   },
-  //   precio: 680
-  // },
-  {
-    id: "canon-r8body",
-    titulo: "Canon R8",
-    descripcion: "Body",
-    imagen: "../assets/productos/canon-r8body.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 1630
-  },
-  // {
-  //   id: "canon-r8kit",
-  //   titulo: "Canon R8 Kit 24-50mm",
-  //   imagen: "../assets/productos/canon-r8kit.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Canon",
-  //     id: "canon"
-  //   },
-  //   precio: 680
-  // },
-  {
-    id: "canon-r10body",
-    titulo: "Canon R10",
-    descripcion: "Body",
-    imagen: "../assets/productos/canon-r10body.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 1050
-  },
-  // {
-  //   id: "canon-r10kit",
-  //   titulo: "Canon R10 Kit 18-45mm",
-  //   imagen: "../assets/productos/canon-r10kit.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Canon",
-  //     id: "canon"
-  //   },
-  //   precio: 680
-  // },
-  {
-    id: "canon-r50kit",
-    titulo: "Canon R50",
-    descripcion: "Kit 18-45mm",
-    imagen: "../assets/productos/canon-r50kit.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 950
-  },
-  {
-    id: "canon-r100kit",
-    titulo: "Canon R100",
-    descripcion: "Kit 18-45mm",
-    imagen: "../assets/productos/canon-r100kit.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 700
-  },
-  {
-    id: "canon-rpbody",
-    titulo: "Canon RP",
-    descripcion: "Body",
-    imagen: "../assets/productos/canon-rpbody.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 1100
-  },
-  {
-    id: "canon-rpkit",
-    titulo: "Canon RP",
-    descripcion: "Kit 24-105mm",
-    imagen: "../assets/productos/canon-rpkit.jpg",
-    categoria:{
-      nombre: "Cámaras Canon",
-      id: "canon"
-    },
-    precio: 1550
+    precio: 'USD 680'
   },
   {
     id: "canon-t8ikit",
@@ -662,11 +534,271 @@ const productos = [
       nombre: "Cámaras Canon",
       id: "canon"
     },
-    precio: 1100
+    precio: 'USD 1.080'
+  },
+  {
+    id: "canon-90dbody",
+    titulo: "Canon 90D",
+    descripcion:"Body",
+    imagen: "../assets/productos/canon-90dbody.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon",
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-90dkit",
+    titulo: "Canon 90D",
+    descripcion: "Kit 18-135mm",
+    imagen: "../assets/productos/canon-90dkit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 1.750'
+  },
+  {
+    id: "canon-5dmkivbody",
+    titulo: "Canon 5D MK IV",
+    descripcion: "Body",
+    imagen: "../assets/productos/canon-5dmkiv.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-5dmkivkit",
+    titulo: "Canon 5D MK IV",
+    descripcion: "Kit 24-105mm IS USM",
+    imagen: "../assets/productos/canon-5dmkivkit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-6dmkiikit",
+    titulo: "Canon 6D MK II Kit 24-105mm",
+    imagen: "../assets/productos/canon-6dmkiikit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-rpbody",
+    titulo: "Canon RP",
+    descripcion: "Body",
+    imagen: "../assets/productos/canon-rpbody.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 1.050'
+  },
+  {
+    id: "canon-rpkit",
+    titulo: "Canon RP",
+    descripcion: "Kit 24-105mm",
+    imagen: "../assets/productos/canon-rpkit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-r5cbody",
+    titulo: "Canon R5 C",
+    descripcion: "Body",
+    imagen: "../assets/productos/canon-r5c.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 3.850'
+  },
+  {
+    id: "canon-r5body",
+    titulo: "Canon R5 Body",
+    imagen: "../assets/productos/canon-r5body.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-r5kit",
+    titulo: "Canon R5 Kit 24-105mm",
+    imagen: "../assets/productos/canon-r5kit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 4.300'
+  },
+  {
+    id: "canon-r6kit",
+    titulo: "Canon R6",
+    descripcion: "Kit 24-105mm f/4-7.1 STM",
+    imagen: "../assets/productos/canon-r7body.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-r6mkiibody",
+    titulo: "Canon R6 MK II",
+    descripcion: "Body",
+    imagen: "../assets/productos/canon-r6mkiibody.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-r6mkiikit",
+    titulo: "Canon R6 MK II",
+    descripcion: "Kit 24-105mm f/4-7.1",
+    imagen: "../assets/productos/canon-r6mkiikit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 2.930'
+  },
+  {
+    id: "canon-r7body",
+    titulo: "Canon R7",
+    descripcion: "Body",
+    imagen: "../assets/productos/canon-r7body.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 1.430'
+  },
+  {
+    id: "canon-r7kit",
+    titulo: "Canon R7 Kit 18-150mm",
+    imagen: "../assets/productos/canon-r7kit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 1.990'
+  },
+  {
+    id: "canon-r8body",
+    titulo: "Canon R8",
+    descripcion: "Body",
+    imagen: "../assets/productos/canon-r8body.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 1.600'
+  },
+  {
+    id: "canon-r8kit",
+    titulo: "Canon R8 Kit 24-50mm",
+    imagen: "../assets/productos/canon-r8kit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-r10body",
+    titulo: "Canon R10",
+    descripcion: "Body",
+    imagen: "../assets/productos/canon-r10body.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 1.050'
+  },
+  {
+    id: "canon-r10kit",
+    titulo: "Canon R10 Kit 18-45mm",
+    imagen: "../assets/productos/canon-r10kit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "canon-r50kit",
+    titulo: "Canon R50",
+    descripcion: "Kit 18-45mm",
+    imagen: "../assets/productos/canon-r50kit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 950'
+  },
+  {
+    id: "canon-r100kit",
+    titulo: "Canon R100",
+    descripcion: "Kit 18-45mm",
+    imagen: "../assets/productos/canon-r100kit.jpg",
+    categoria:{
+      nombre: "Cámaras Canon",
+      id: "canon"
+    },
+    precio: 'USD 700'
   },
 
 
+
+
+
   // ------> Sony <-------
+  {
+    id: "sony-a6400kit",
+    titulo: "Sony a6400",
+    descripcion: "Kit 16-50mm",
+    imagen: "../assets/productos/sony-a6400kit.jpg",
+    categoria:{
+      nombre: "Cámaras Sony",
+      id: "sony"
+    },
+    precio: 'USD 1.020'
+  },
+  {
+    id: "sony-a6700body",
+    titulo: "Sony a6700 Body",
+    imagen: "../assets/productos/sony-a6700body.jpg",
+    categoria:{
+      nombre: "Cámaras Sony",
+      id: "sony"
+    },
+    precio: 'Ingresando'
+  },
+  {
+    id: "sony-a6700kit",
+    titulo: "Sony a6700",
+    descripcion: "Kit 16-50mm",
+    imagen: "../assets/productos/sony-a6700kit.jpg",
+    categoria:{
+      nombre: "Cámaras Sony",
+      id: "sony"
+    },
+    precio: 'Ingresando'
+  },
   {
     id: "sony-a7ciibody",
     titulo: "Sony a7C II",
@@ -676,7 +808,7 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 2230
+    precio: 'USD 2.210'
   },
   {
     id: "sony-a7ciikit",
@@ -687,7 +819,18 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 2550
+    precio: 'USD 2.530'
+  },
+  {
+    id: "sony-a7rvbody",
+    titulo: "Sony a7 RV",
+    descripcion: "Body",
+    imagen: "../assets/productos/sony-a7rvbody.jpg",
+    categoria:{
+      nombre: "Cámaras Sony",
+      id: "sony"
+    },
+    precio: 'Ingresando'
   },
   {
     id: "sony-a7iiibody",
@@ -698,7 +841,7 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 1630
+    precio: 'USD 1.630'
   },
   {
     id: "sony-a7iiikit",
@@ -709,7 +852,7 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 1930
+    precio: 'Ingresando'
   },
   {
     id: "sony-a7ivbody",
@@ -720,7 +863,7 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 2500
+    precio: 'USD 2.480'
   },
   {
     id: "sony-a7ivkit",
@@ -731,39 +874,7 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 2620
-  },
-  {
-    id: "sony-a6400kit",
-    titulo: "Sony a6400",
-    descripcion: "Kit 16-50mm",
-    imagen: "../assets/productos/sony-a6400kit.jpg",
-    categoria:{
-      nombre: "Cámaras Sony",
-      id: "sony"
-    },
-    precio: 1020
-  },
-  // {
-  //   id: "sony-a6700body",
-  //   titulo: "Sony a6700 Body",
-  //   imagen: "../assets/productos/sony-a6700body.jpg",
-  //   categoria:{
-  //     nombre: "Cámaras Sony",
-  //     id: "sony"
-  //   },
-  //   precio: 1670
-  // },
-  {
-    id: "sony-a6700kit",
-    titulo: "Sony a6700",
-    descripcion: "Kit 16-50mm",
-    imagen: "../assets/productos/sony-a6700kit.jpg",
-    categoria:{
-      nombre: "Cámaras Sony",
-      id: "sony"
-    },
-    precio: 1750
+    precio: 'USD 2.620'
   },
   {
     id: "sony-fx3",
@@ -774,7 +885,7 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 4000
+    precio: 'USD 4.000'
   },
   {
     id: "sony-zv1",
@@ -785,7 +896,7 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 690
+    precio: 'USD 670'
   },
   {
     id: "sony-zve10kit",
@@ -796,7 +907,7 @@ const productos = [
       nombre: "Cámaras Sony",
       id: "sony"
     },
-    precio: 930
+    precio: 'USD 900'
   },
 
 
@@ -904,7 +1015,7 @@ function pintarProductos (productosFiltrados){
       <div class="producto_body">
         <h3 class="titulo_producto">${producto.titulo}</h3>
         <p class="descripcion_producto">${producto.descripcion}</p>
-        <p class="precio_producto"><span>Precio:</span> USD ${producto.precio}</p>
+        <p class="precio_producto"><span>Precio:</span> ${producto.precio}</p>
         <button class="agregar_carrito" id="${producto.id}"> Consultar </button>
       </div>
     `;
